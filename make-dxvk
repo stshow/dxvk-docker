@@ -2,7 +2,7 @@
 
 # A POSIX variable
 OPTIND=1  # Reset in case getopts has been used previously in the shell.
-IMAGE=${IMAGE:-"cheald/dxvk-docker:latest"}
+IMAGE=${IMAGE:-"stshow/dxvk-docker:latest"}
 DXVK_REPO=${DXVK_REPO:-"https://github.com/doitsujin/dxvk.git"}
 DEFAULT_GITREF=master
 GITREF=""
